@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Josep'14ns Reun10n: Back Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<div id="scrollDist"></div>
+
+<div id="app">
+
+  <svg id="headlines"  viewBox="0 0 500 480">
+      <style>
+    .small {
+      font: italic 12px sans-serif;
+    }
+    .heavy {
+      font: italic 30px sans-serif;
+    }
+
+    /* Note that the color of the text is set with the    *
+     * fill property, the color property is for HTML only */
+    .Rrrrr {
+      font: italic 40px serif;
+      fill: green;
+    }
+  </style>
+
+ <g id="txt1">
+  <text x="0" y="10" class="heavy">Josep'14ns Reun10n</text>
+  <!-- <text x="5" y="10" class="heavy">Reun10n</text> -->
+  <text x="65" y="40" class="small">Back</text>
+  <text x="100" y="40" class="Rrrrr">Home</text>
+ </g>
+  <title>Layer 1</title>
+  <g id="txt2">
+   <path id="svg_43" d="m9.78943,185.54964l183.92219,0l56.83287,-174.7247l56.83286,174.7247l183.92227,0l-148.79501,107.98482l56.83676,174.72507l-148.79688,-107.98761l-148.79668,107.98761l56.83649,-174.72507l-148.79486,-107.98482l0,0l-0.00001,0l-0.00001,0z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#ffffff" stroke="#007f00"/>
+   <path id="svg_53" d="m248.57281,18.71174c0,0 3.94342,242.51922 3.94342,242.51922c0,0 52.25006,-75.91052 52.25006,-75.91052l-56.19348,-166.60867l0,-0.00002l0,-0.00001z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#007f00" stroke="#007f00"/>
+   <path id="svg_54" d="m484.33939,190.53557c0,0 -231.77278,71.50172 -231.77278,71.50172c0,0 87.48045,28.97656 87.48045,28.97656l144.29233,-100.47833l0,0.00003l0,0.00002z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#007f00" stroke="#007f00"/>
+   <path id="svg_55" d="m394.88538,461.19128c0,0 -143.53746,-195.52011 -143.53746,-195.52011c0,0 1.30583,92.14536 1.30583,92.14536l142.23163,103.37479l0,-0.00003z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#007f00" stroke="#007f00"/>
+   <path id="svg_56" d="m106.23513,461.1333c0,0 141.30289,-197.14108 141.30289,-197.14108c0,0 -87.18773,29.84579 -87.18773,29.84579l-54.11517,167.29529l-0.00002,0l0.00002,0l0.00001,0z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#007f00" stroke="#007f00"/>
+   <path id="svg_57" d="m17.22028,186.16212c0,0 231.15335,73.47957 231.15335,73.47957c0,0 -55.32353,-73.70059 -55.32353,-73.70059l-175.82978,0.22102l-0.00002,0l-0.00001,0z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#007f00" stroke="#007f00"/>
+  </g>
+ </g>
+  </svg>
+
+  <div id="imgGroup">
+    <svg data-x="1500" data-y="800" viewBox="0 0 500 480">
+        <g>
+            <text x="50" y="10" class="svgBoxText">2014</text>
+        </g>
+    </svg>
+    <img src="images/signum.jpg" data-x="300" data-y="0" alt="big steppers">
+    <svg data-x="1500" data-y="600" viewBox="0 0 500 480">
+        <g>
+            <text x="50" y="10" class="svgBoxText">2013</text>
+        </g>
+    </svg>
+    <img src="images/track.png" data-x="300" data-y="0" alt="just before bishan days" width="1250" height="800" >
+    <svg data-x="1500" data-y="400" viewBox="0 0 500 480">
+        <g>
+            <text x="50" y="10" class="svgBoxText">2012</text>
+        </g>
+    </svg>
+    <img src="images/morning.png" data-x="300" data-y="0"  alt="when you are a bit too early for school">
+    <svg data-x="1500" data-y="200" viewBox="0 0 500 480">
+        <g>
+            <text x="50" y="10" class="svgBoxText">2011</text>
+        </g>
+    </svg>
+
+    <img src="images/campfire2011.png" data-x="200" data-y="250" width="1250" height="800" alt="Our Campfire">
+  </div>
+
+  <div id="detail">
+    <div id="detailImg"></div>
+    <div id="detailTxt"></div>
+  </div>
+
+  <svg width="100%" height="100%" fill="none" stroke="#fff">
+    <g id="cursor">
+      <circle id="cursorCircle" cx="0" cy="0" r="12" stroke-width="3"/>
+      <path id="cursorClose" d="M-25,-25 L25,25 M-25,25 L25,-25" opacity="0" stroke-width="3.5"/>
+    </g>
+  </svg>
+</div>
+<body class="" id="top">
+    <div class="history-wrapper-content">
+        <section class='scrollContainer'>
+            <section class="section start-content">
+                <div class="item start-chapter">
+                    <div class="caption">
+                        <h2 style="color: green;">
+                            Back
+                        </h2>
+                        <p>
+                            <i> 10 years </i>  have passed.
+                            <br>&nbsp;<br>
+
+                            Since we stood tall in the <i>Founder's Hall</i> upon Graduation
+                            <br>&nbsp;<br>
+                            We are once again stirred to answer <i>St Joseph's Call</i>
+
+                            <br>&nbsp;<br>
+                            This time to return <i><b>Back Home</b></i>
+                        </p>
+                    </div>
+                    <figure class="start-image">
+                        <img class="parallax"
+                            src="images/graduation2014.png">
+                    </figure>
+                </div>
+            </section>
+
+            <section class='section'>
+                <div class="chapters c01">
+                    <div class="double-images type-01">
+                        <figure>
+                            <img
+                                src="images/cny2014.png">
+                        </figure>
+                        <figure class="parallax">
+                            <img
+                                src="images/home.png">
+                        </figure>
+                    </div>
+                    <div class="caption fadeUp">
+                        <h2 class="slideText">
+                            On Dec' 7th 6pm
+                        </h2>
+                        <p>
+                            Tell your fam, tell your boss, tell your wife or the one you are going to wife
+                            <br>&nbsp;<br>
+                            Mark this date on the <i><b>1st week of December</b></i> in your gcals, on your walls or your son's SJI diary
+                            <br>&nbsp;<br>
+                            This  <i><b>Saturday Evening</b></i>  is for the bois
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class='section'>
+                <div class="chapters">
+                    <div class="triple-images">
+                        <figure>
+                            <img
+                                src="images/me&dabois.png">
+                        </figure>
+                        <figure class="parallax">
+                            <img
+                                src="images/corridor.png">
+                        </figure>
+                        <figure class="parallax">
+                            <img
+                                src="images/sportsday2014.png">
+                        </figure>
+                    </div>
+                </div>
+            </section>
+
+            <section class='section'>
+                <div class="chapters c02">
+                    <div class="double-images type-02">
+                        <figure>
+                            <img class="inner-scale"
+                                src="images/badge.png">
+                        </figure>
+                        <figure class="parallax">
+                            <img
+                                src="images/suhas.png">
+                        </figure>
+                    </div>
+                    <div class="caption fadeUp">
+                        <h2>
+                            @ The Founder's Hall
+                        </h2>
+                        <p>
+                            <br>
+                            No location tags needed, you know the way
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+        </section>
+    </div>
+
+  </body>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollToPlugin.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
